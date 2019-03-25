@@ -1,0 +1,14 @@
+defaultSeverity: error
+extends:
+  - tslint-react
+  - tslint-eslint-rules
+jsRules:
+rules:
+  eofline: true
+  no-console: false
+  no-construct: true
+  no-debugger: false
+  no-reference: true
+  no-var-keyword: true
+  jsx-no-multiline-js: false
+  jsx-no-lambda: false
