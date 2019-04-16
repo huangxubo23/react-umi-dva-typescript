@@ -184,7 +184,7 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
     const dispalyFooter = this.getFooterDisplay(pathname, routes)
     const layout = (
       <Layout>
-        {/* {isTop && !isMobile ? null : (
+        {isTop && !isMobile ? null : (
           <SiderMenu
             location={location}
             logo={logo}
@@ -194,7 +194,7 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
             isMobile={isMobile}
             {...this.props}
           />
-        )} */}
+        )}
         <Layout
           style={{
             ...this.getLayoutStyle(),
