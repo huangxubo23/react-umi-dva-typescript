@@ -59,9 +59,63 @@ export default {
           component: './Welcome',
         },
         {
-          path: 'https://github.com/umijs/umi-blocks/tree/master/ant-design-pro',
-          name: 'more-blocks',
-          icon: 'block',
+          path: '/creative',
+          name: 'creativeManagement',
+          icon: 'form',
+          // component: './Welcome',
+          routes: [
+            {
+              path: '/creative/new',
+              name: 'new',
+              icon: 'plus',
+              component: './Product',
+            },
+            {
+              path: '/creative/list',
+              name: 'list',
+              icon: 'file-text',
+              component: './Welcome',
+            },
+            {
+              path: '/creative/video',
+              name: 'video',
+              icon: 'video-camera',
+              component: './VideoEditor',
+            }
+          ]
+        },
+        {
+          path: '/analysis',
+          name: 'analysis',
+          icon: 'line-chart',
+          // component: './Welcome',
+          routes: [
+            {
+              path: '/analysis/content',
+              name: 'content',
+              icon: 'file-unknown',
+              component: './Welcome',
+            }
+          ]
+        },
+        {
+          path: '/setting',
+          name: 'setting',
+          icon: 'setting',
+          // component: './Welcome',
+          routes: [
+            {
+              path: '/setting/profile',
+              name: 'profile',
+              icon: 'user',
+              component: './Welcome',
+            }
+          ]
+        },
+        {
+          path: 'https://github.com/huangxubo23/react-umi-dva-typescript/blob/master/README.md',
+          name: 'help',
+          icon: 'book',
         },
       ],
     },

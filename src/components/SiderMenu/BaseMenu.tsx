@@ -25,22 +25,30 @@ const getIcon = icon => {
 
 declare type MenuMode = 'vertical' | 'vertical-left' | 'vertical-right' | 'horizontal' | 'inline';
 declare type MenuTheme = 'light' | 'dark';
-interface BaseMenuProps extends React.Props<any> {
-  flatMenuKeys: Array<string>;
-  openKeys: Array<string>;
-  collapsed: boolean;
-  mode: MenuMode;
-  theme: MenuTheme;
-  location: Location;
-  className: string;
-  isMobile: boolean;
-  onCollapse: Function;
-  handleOpenChange:  (openKeys: string[]) => void;
-  style: React.CSSProperties;
-  menuData: any;
+interface IBaseMenuProps extends React.Props<any> {
+  flatMenuKeys?: Array<string>;
+  openKeys?: Array<{ key: string, path: string }>;
+  collapsed?: boolean;
+  mode?: MenuMode;
+  theme?: MenuTheme;
+  layout?: string;
+  location?: Location;
+  className?: string;
+  isMobile?: boolean;
+  onCollapse?: (collapsed) => void;
+  handleOpenChange?:  (openKeys: string[]) => void;
+  onOpenChange?: Function;
+  style?: React.CSSProperties;
+  match?: any;
+  menuData?: any;
+  children?: React.ElementType;
+  autoHideHeader?: boolean;
+  breadcrumbNameMap: any;
+  route: any;
+  primaryColor: string;
 }
 
-export default class BaseMenu extends PureComponent<BaseMenuProps> {
+export default class BaseMenu extends PureComponent<IBaseMenuProps> {
 
   /**
    * 获得菜单子节点

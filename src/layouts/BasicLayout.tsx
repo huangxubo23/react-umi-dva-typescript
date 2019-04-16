@@ -9,12 +9,14 @@ import classNames from 'classnames';
 import pathToRegexp from 'path-to-regexp';
 import Media from 'react-media';
 import { formatMessage } from 'umi/locale';
+import Link from 'umi/link';
 import Authorized from '@/utils/Authorized';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 import Footer from './Footer';
 import Header from './Header';
 import Context from './MenuContext';
 import SiderMenu from '@/components/SiderMenu';
+import Exception from '@/components/Exception';
 
 import styles from './BasicLayout.less';
 
@@ -55,8 +57,9 @@ interface BasicLayoutProps extends React.Props<any> {
   fixSiderbar?: boolean;
   layout?: string;
   fixedHeader?: boolean;
-  navTheme?: string;
+  navTheme?: 'light' | 'dark';
   menuData?: any;
+  flatMenuKeys?: Array<any>
 }
 
 class BasicLayout extends React.PureComponent<BasicLayoutProps> {
@@ -121,18 +124,24 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
     return getAuthority(pathname, routeData);
   };
 
+  getFooterDisplay = (pathname, routes) => {
+    console.info('==getFooterDisplay==', pathname, routes);
+    const hideFooterUrls = ['/creative/video'];
+    return hideFooterUrls.indexOf(pathname) === -1;
+  }
+
   getPageTitle = (pathname, breadcrumbNameMap) => {
     const currRouterData = this.matchParamsPath(pathname, breadcrumbNameMap);
 
     if (!currRouterData) {
-      return 'Ant Design Pro';
+      return '达人创作平台';
     }
     const pageName = formatMessage({
       id: currRouterData.locale || currRouterData.name,
       defaultMessage: currRouterData.name,
     });
 
-    return `${pageName} - Ant Design Pro`;
+    return `${pageName} - 达人创作平台`;
   };
 
   getLayoutStyle = () => {
@@ -158,6 +167,7 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
       navTheme,
       layout: PropsLayout,
       children,
+      location,
       location: { pathname },
       isMobile,
       menuData,
@@ -166,13 +176,17 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
       fixedHeader,
     } = this.props;
 
+    console.info('==BasicLayout==', this.props);
+
     const isTop = PropsLayout === 'topmenu';
     const routerConfig = this.getRouterAuthority(pathname, routes);
     const contentStyle = !fixedHeader ? { paddingTop: 0 } : {};
+    const dispalyFooter = this.getFooterDisplay(pathname, routes)
     const layout = (
       <Layout>
-        {isTop && !isMobile ? null : (
+        {/* {isTop && !isMobile ? null : (
           <SiderMenu
+            location={location}
             logo={logo}
             theme={navTheme}
             onCollapse={this.handleMenuCollapse}
@@ -180,7 +194,7 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
             isMobile={isMobile}
             {...this.props}
           />
-        )}
+        )} */}
         <Layout
           style={{
             ...this.getLayoutStyle(),
@@ -195,11 +209,11 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
             {...this.props}
           />
           <Content className={styles.content} style={contentStyle}>
-            <Authorized authority={routerConfig} noMatch={<p>Exception403</p>}>
+            <Authorized authority={routerConfig} noMatch={<Exception type="404" linkElement={Link} desc={formatMessage({ id: 'app.exception.description.404' })} backText={formatMessage({ id: 'app.exception.back' })} />}>
               {children}
             </Authorized>
           </Content>
-          <Footer />
+          {dispalyFooter && <Footer />}
         </Layout>
       </Layout>
     );

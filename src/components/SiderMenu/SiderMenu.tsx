@@ -13,9 +13,11 @@ interface SiderMenuProps extends React.Props<any> {
   menuData?: Array<{ key: string, path: string }>;
   logo?: any;
   collapsed?: boolean;
-  onCollapse?: () => void;
+  onCollapse?: (collapsed) => void;
   theme?: 'light' | 'dark';
   fixSiderbar?: string;
+  location?: any;
+  flatMenuKeys: Array<string>;
 }
 
 interface SiderMenuState {
@@ -59,7 +61,7 @@ export default class SiderMenu extends PureComponent<SiderMenuProps, SiderMenuSt
   };
 
   render() {
-    const { logo, collapsed, onCollapse, fixSiderbar, theme } = this.props;
+    const { logo, collapsed, onCollapse, fixSiderbar, theme, location, flatMenuKeys } = this.props;
     const { openKeys } = this.state;
     const defaultProps = collapsed ? {} : { openKeys };
 
@@ -81,16 +83,18 @@ export default class SiderMenu extends PureComponent<SiderMenuProps, SiderMenuSt
         <div className={styles.logo} id="logo">
           <Link to="/">
             <img src={logo} alt="logo" />
-            <h1>Ant Design Pro</h1>
+            <h1>达人创作平台</h1>
           </Link>
         </div>
         <Suspense fallback={<PageLoading />}>
           <BaseMenu
             {...this.props}
+            location={location}
+            flatMenuKeys={flatMenuKeys}
             mode="inline"
             handleOpenChange={this.handleOpenChange}
             onOpenChange={this.handleOpenChange}
-            style={{ padding: '16px 0', width: '100%' }}
+            style={{ padding: '16px 0', width: '100%', background: '#ffffff' }}
             {...defaultProps}
           />
         </Suspense>

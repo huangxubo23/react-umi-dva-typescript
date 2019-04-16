@@ -34,7 +34,7 @@ export default class TopNavHeader extends PureComponent<TopNavHeaderProps> {
             <div className={styles.logo} key="logo" id="logo">
               <Link to="/">
                 <img src={logo} alt="logo" />
-                <h1>Ant Design Pro</h1>
+                <h1>达人创作平台</h1>
               </Link>
             </div>
             <div

@@ -12,3 +12,5 @@ rules:
   no-var-keyword: true
   jsx-no-multiline-js: false
   jsx-no-lambda: false
+  jsx-no-string-ref: false
+  jsx-curly-spacing: false
