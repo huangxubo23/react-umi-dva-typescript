@@ -209,7 +209,7 @@ class BasicLayout extends React.PureComponent<BasicLayoutProps> {
             {...this.props}
           />
           <Content className={styles.content} style={contentStyle}>
-            <Authorized authority={routerConfig} noMatch={<Exception type="404" linkElement={Link} desc={formatMessage({ id: 'app.exception.description.404' })} backText={formatMessage({ id: 'app.exception.back' })} />}>
+            <Authorized authority={routerConfig} noMatch={<Exception type="404" linkElement={Link} desc="抱歉，你访问的页面不存在" backText="返回首页" />}>
               {children}
             </Authorized>
           </Content>

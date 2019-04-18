@@ -15,6 +15,12 @@ import styles from './Editor.less';
 
 interface IEditor extends React.Props<any> {
   dispatch?: Function;
+  plugins?: Array<string | object>;
+  className?: string;
+  label?: string;
+  placeholder?: string;
+  value?: any;
+  onChange?: Function;
 }
 
 @connect((state) => ({
@@ -27,12 +33,11 @@ export default class Editor extends PureComponent<IEditor> {
 
   async componentDidMount () {
     // 假设此处从服务端获取html格式的编辑器内容
-    const htmlContent = '';
+    const { value } = this.props;
     // 使用BraftEditor.createEditorState将html字符串转换为编辑器需要的editorState数据
     this.setState({
-      editorState: BraftEditor.createEditorState(htmlContent)
+      editorState: BraftEditor.createEditorState(value)
     });
-
   }
 
   submitContent = async () => {
@@ -47,7 +52,12 @@ export default class Editor extends PureComponent<IEditor> {
   }
 
   handleEditorChange = (editorState) => {
-    this.setState({ editorState })
+    this.setState({ editorState }, () => {
+      if (this.props.onChange) {
+        const rawJSON = editorState.toRAW(true);
+        this.props.onChange(rawJSON);
+      }
+    });
   }
 
   clearContent = () => {

@@ -2,6 +2,7 @@ export default {
   'menu.welcome': '欢迎',
   'menu.help': '帮助中心',
   'menu.creativeManagement': '作品管理',
+  'menu.creativeManagement.article': '长文章',
   'menu.creativeManagement.new': '发布作品',
   'menu.creativeManagement.list': '全部作品',
   'menu.creativeManagement.video': '视频创作',

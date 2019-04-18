@@ -1,0 +1,316 @@
+{
+  "data": {
+    "activeInteractive": "false",
+    "contentMap": {},
+    "coverUrl": "https://img.alicdn.com/imgextra/i2/6000000000189/O1CN01WDlVLy1DGbMnc9Gb4_!!6000000000189-0-tbvideo.jpg",
+    "duration": "44",
+    "gmtCreate": "2019-03-29 09:56:37",
+    "gmtModified": "2019-03-29 09:56:37",
+    "id": "354874879",
+    "interactiveTypeString": "timeline",
+    "jsTemplates": {},
+    "materialList": "",
+    "mediaType": "1",
+    "producerSource": "1",
+    "source": "TBVideo",
+    "timeline": [
+      {
+        "source": "item",
+        "name": "darenItemCard",
+        "type": "WEEX",
+        "portraitMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "itemId": 579914211622,
+            "itemName": "【稀缺宝石蓝】Xiaomi/小米小米MIX 3滑盖全面屏旗舰骁龙845拍照游戏官方旗舰店正品米9mix3故宫版mix2s",
+            "type": "itemInfo",
+            "coverUrl": "//img.alicdn.com/tfscom/i1/1714128138/O1CN01p0xTF829zFgdJAAn7_!!0-item_pic.jpg",
+            "interactVideoId": "354874879",
+            "userId": "549657177"
+          }
+        },
+        "landscapeMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "itemId": 579914211622,
+            "itemName": "【稀缺宝石蓝】Xiaomi/小米小米MIX 3滑盖全面屏旗舰骁龙845拍照游戏官方旗舰店正品米9mix3故宫版mix2s",
+            "type": "itemInfo",
+            "coverUrl": "//img.alicdn.com/tfscom/i1/1714128138/O1CN01p0xTF829zFgdJAAn7_!!0-item_pic.jpg",
+            "interactVideoId": "354874879",
+            "userId": "549657177"
+          }
+        },
+        "startTime": "00:01.912",
+        "endTime": "00:10.000",
+        "materialName": "item_525252177"
+      },
+      {
+        "source": "item",
+        "name": "darenItemCard",
+        "type": "WEEX",
+        "portraitMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "itemId": 587001537827,
+            "itemName": "【抢先加购】Xiaomi/小米9 骁龙855全面屏索尼4800万三摄指纹拍照游戏手机官方旗舰正品NFC 小米8",
+            "type": "itemInfo",
+            "coverUrl": "//img.alicdn.com/tfscom/i4/2616970884/O1CN01VJgiLo1IOudFAQ9ZS_!!0-item_pic.jpg",
+            "interactVideoId": "354874879",
+            "userId": "549657177"
+          }
+        },
+        "landscapeMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "itemId": 587001537827,
+            "itemName": "【抢先加购】Xiaomi/小米9 骁龙855全面屏索尼4800万三摄指纹拍照游戏手机官方旗舰正品NFC 小米8",
+            "type": "itemInfo",
+            "coverUrl": "//img.alicdn.com/tfscom/i4/2616970884/O1CN01VJgiLo1IOudFAQ9ZS_!!0-item_pic.jpg",
+            "interactVideoId": "354874879",
+            "userId": "549657177"
+          }
+        },
+        "startTime": "00:24.853",
+        "endTime": "00:34.706",
+        "materialName": "item_528781308"
+      },
+      {
+        "source": "taowaQuiz",
+        "name": "taowaQuiz",
+        "type": "WEEX",
+        "portraitMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "lotteryType": 0,
+            "quizType": 2,
+            "options": [{
+              "option": "不想",
+              "index": 1
+            }, {
+              "option": "想",
+              "index": 2
+            }],
+            "rightIndex": 1,
+            "headImg": "//img.alicdn.com/imgextra/i2/549657177/O1CN01qJaPoR22t74QHluxw_!!549657177-2-beehive-scenes.png",
+            "loserMrpLottery": {},
+            "title": "亲，想买这个商品吗？",
+            "interactVideoId": "354874879",
+            "userId": "549657177",
+            "delayTime": 0,
+            "materialName": "taowaQuiz_528793372",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "landscapeMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "lotteryType": 0,
+            "quizType": 2,
+            "options": [{
+              "option": "不想",
+              "index": 1
+            }, {
+              "option": "想",
+              "index": 2
+            }],
+            "rightIndex": 1,
+            "headImg": "//img.alicdn.com/imgextra/i2/549657177/O1CN01qJaPoR22t74QHluxw_!!549657177-2-beehive-scenes.png",
+            "loserMrpLottery": {},
+            "title": "亲，想买这个商品吗？",
+            "interactVideoId": "354874879",
+            "userId": "549657177",
+            "delayTime": 0,
+            "materialName": "taowaQuiz_528793372",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "startTime": "00:14.853",
+        "endTime": "00:19.853",
+        "materialName": "taowaQuiz_528793372"
+      },
+      {
+        "source": "taowaQuiz",
+        "name": "taowaQuiz",
+        "type": "WEEX",
+        "portraitMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "lotteryType": 0,
+            "quizType": 1,
+            "options": [{
+              "option": "买了",
+              "index": 1
+            }, {
+              "option": "正在考虑",
+              "index": 2
+            }, {
+              "option": "不想买",
+              "index": 3
+            }],
+            "title": "亲，这次你买了宝贝了",
+            "headImg": "//img.alicdn.com/imgextra/i2/549657177/O1CN01qJaPoR22t74QHluxw_!!549657177-2-beehive-scenes.png",
+            "rightIndex": 1,
+            "interactVideoId": "354874879",
+            "userId": "549657177",
+            "loserMrpLottery": {},
+            "delayTime": 0,
+            "materialName": "taowaQuiz_525268345",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "landscapeMode": {
+          "type": "WEEX",
+          "align": "top",
+          "anchorArray": [{
+            "boxH": "0.0",
+            "boxW": "0.0",
+            "boxX": "0.0",
+            "boxY": "0.0",
+            "previewX": "0.0",
+            "previewY": "0.0",
+            "time": "0",
+            "x": "0.0",
+            "y": "0.0"
+          }],
+          "layout": "relative",
+          "jsData": {
+            "lotteryType": 0,
+            "quizType": 1,
+            "options": [{
+              "option": "买了",
+              "index": 1
+            }, {
+              "option": "正在考虑",
+              "index": 2
+            }, {
+              "option": "不想买",
+              "index": 3
+            }],
+            "title": "亲，这次你买了宝贝了",
+            "headImg": "//img.alicdn.com/imgextra/i2/549657177/O1CN01qJaPoR22t74QHluxw_!!549657177-2-beehive-scenes.png",
+            "rightIndex": 1,
+            "interactVideoId": "354874879",
+            "userId": "549657177",
+            "loserMrpLottery": {},
+            "delayTime": 0,
+            "materialName": "taowaQuiz_525268345",
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        },
+        "startTime": "00:35.000",
+        "endTime": "00:40.000",
+        "materialName": "taowaQuiz_525268345"
+      }
+    ],
+    "title": "搭配",
+    "type": "1",
+    "userId": "549657177",
+    "userName": "huangxubo23",
+    "version": "2",
+    "videoId": "222173706368",
+    "videoUrl": "http://cloud.video.taobao.com/play/u/549657177/p/2/e/6/t/1/222173706368.mp4"
+  }
+}

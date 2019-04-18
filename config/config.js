@@ -65,6 +65,12 @@ export default {
           // component: './Welcome',
           routes: [
             {
+              path: '/creative/article',
+              name: 'article',
+              icon: 'file-text',
+              component: './Article',
+            },
+            {
               path: '/creative/new',
               name: 'new',
               icon: 'plus',
