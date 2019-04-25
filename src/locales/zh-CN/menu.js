@@ -13,6 +13,7 @@ export default {
   'menu.setting': '设置管理',
   'menu.setting.profile': '个人中心',
   'menu.setting.register': '用户注册',
+  'menu.setting.user': '个人设置',
   'menu.setting.staff': '员工管理',
 
   'menu.account.center': '个人中心',

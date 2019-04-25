@@ -9,16 +9,19 @@ export default {
         antd: true,
         dva: {
           hmr: true,
+          // immer: true,
         },
         targets: {
-          ie: 11,
+          ie: 9,
         },
         locale: {
           enable: true, // default false
           default: 'zh-CN', // default zh-CN
           baseNavigator: true, // default true, when it is true, will use `navigator.language` overwrite default
         },
+        // fastClick: true,
         dynamicImport: {
+          // webpackChunkName: true,
           loadingComponent: './components/PageLoading/index',
         },
       },
@@ -115,6 +118,30 @@ export default {
               name: 'profile',
               icon: 'user',
               component: './Welcome',
+            },
+            {
+              path: '/setting/register',
+              name: 'register',
+              icon: 'user',
+              component: './Account/Register',
+            },
+            {
+              path: '/setting/user',
+              name: 'user',
+              icon: 'user',
+              component: './Account/Setting',
+            },
+            {
+              path: '/setting/staff',
+              name: 'staff',
+              icon: 'user',
+              component: './Staff/StaffList',
+            },
+            {
+              path: '/setting/tabs',
+              name: 'tabs',
+              icon: 'user',
+              component: './Tabs',
             }
           ]
         },

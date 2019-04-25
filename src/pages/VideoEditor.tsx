@@ -62,7 +62,10 @@ export default class Product extends PureComponent<ProductProps> {
           </div>
           <div className={styles.main}>content</div>
         </div>
-        <div className={styles.footer}>footer</div>
+        <div className={styles.timeline}>
+          <div className="mm-timeline-wrapper"></div>
+          <div className="mm-timeline-count-wrapper"></div>
+        </div>
       </div>
     );
   }
