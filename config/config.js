@@ -39,6 +39,32 @@ export default {
   targets: {
     ie: 11,
   },
+  copy: [
+    {
+      from: 'src/copy/status.check',
+      to: "status.check",
+      flatten: true
+    }, {
+      from: 'src/copy/loginSuccess.html',
+      to: "pc/loginSuccess.html",
+      flatten: true
+    }, {
+      from: 'src/copy/root.txt',
+      to: "pc/root.txt",
+      flatten: true
+    }, {
+      from: 'src/copy/whiteList.htm',
+      to: "pc/whiteList.htm",
+      flatten: true
+    }
+  ],
+  proxy: {
+    "/user": {
+      "target": "http://user.52wzg.com",
+      "changeOrigin": true,
+      "pathRewrite": { "^/user" : "" }
+    }
+  },
 
   /**
    * 路由相关配置
@@ -52,9 +78,29 @@ export default {
     {
       path: '/',
       component: '../layouts/BasicLayout',
+      // component: '../layouts/AdminMainLayout',
       routes: [
-        { path: '/', redirect: '/welcome' },
-        // dashboard
+        { path: '/', redirect: '/pc/index/homePage' },
+        {
+          path: '/pc',
+          name: 'home',
+          icon: 'home',
+          // component: './index',
+          routes: [
+            {
+              path: '/pc/index/homePage',
+              name: 'home',
+              icon: 'home',
+              component: './Index',
+            },
+            {
+              path: '/pc/admin/index/homePage',
+              name: 'home',
+              icon: 'home',
+              component: './IndexPage',
+            },
+          ]
+        },
         {
           path: '/welcome',
           name: 'welcome',

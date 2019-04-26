@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>哇掌柜</title>
+</head>
+<body>
+</body>
+<script>
+    if(window.ipcRenderer){
+        ipcRenderer.send('loginSuccess');
+    }
+    window.close();
+</script>
+</html>

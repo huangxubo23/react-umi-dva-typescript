@@ -1,0 +1,17 @@
+.workloadNumber{
+    position: absolute;
+    top:50px;
+    left: 300px;
+    width: 27%;
+    height: 100%;
+    border: 1px;
+    overflow: auto;
+}
+/*.hrline{/*分割线*
+    margin-top:7px;
+    margin: 0;
+    border: 0;
+    color: black;
+    background-color: black;
+    height: 1px
+}*/

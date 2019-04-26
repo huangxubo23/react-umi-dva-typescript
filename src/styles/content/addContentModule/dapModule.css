@@ -1,0 +1,41 @@
+/**
+ * Created by 石英 on 2018/9/28 0028下午 5:35.
+ */
+
+.template-card-empty{
+    background-color: rgba(239, 246, 255, 0.2);
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+}
+
+.template-card-empty:hover{
+    background-color: rgba(239, 246, 255,0.2);
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(102, 170, 255);
+    border-image: initial;
+}
+
+.template-card{
+    position: relative;
+    color: rgb(102, 102, 102);
+}
+
+.template-card:hover{
+    position: relative;
+    color: rgb(102, 170, 255);
+}
+
+.template-layers:hover{
+    color: rgb(102, 170, 255);
+}
+
+.template-card-border:hover{
+    border: 1px solid rgba(102, 170, 255,0.8) !important;
+}
+
+.imageList .el-dialog--small {
+    width: 66%;
+}

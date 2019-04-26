@@ -1,0 +1,22 @@
+.pageJump{
+    display: inline ;
+    width: 40px ;
+    height: 24px ;
+    margin-bottom: 20px ;
+}
+.pageJumpButton{
+    display: inline;
+    border: 1px solid rgba(108, 108, 108, 0.33);
+}
+.pageJumpHead {
+    position: relative;
+    left: 1001px;
+    bottom: 55px;
+    width: 200px;
+}
+.pageJumpHead_text{
+    position:relative;
+}
+.commodity{
+    margin: auto!important;
+}

@@ -1,0 +1,24 @@
+div.allColor { /*全局字体颜色*/
+    color: #777777 !important;
+}
+div.fontDiv span{/*字体左浮动*/
+    float: left;
+}
+.fontDiv label{
+    color: #0bb20c;
+}
+.imgDiv{/*头像图片*/
+    /*float: left;*/
+    width: 50%;
+}
+label.number{
+    font-size: 1px;
+}
+
+.fontDiv p,.fontDiv label{
+    margin: 0 !important;
+}
+
+.margin0{
+    margin: 0 !important;
+}

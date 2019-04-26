@@ -1,0 +1,17 @@
+.faceplateHead {
+    width: 100%;
+    height: 40px;
+}
+
+.faceplateHead h3 {
+    margin-top: 0;
+}
+
+.faceplateHead_yg {
+    background-color: rgba(176, 176, 176, 0.38);
+    border-radius: 10px 10px 0 0;
+}
+.widthHeght { /*固定每个小组宽高*/
+    width: 100% !important;
+    height: 270px !important;
+}

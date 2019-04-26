@@ -1,0 +1,20 @@
+.searchButton {
+    margin-top: 20px
+}
+
+.isForeginCheckbox {
+    position: absolute;
+    margin-top: -26px !important;
+    margin-left: 98px !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+
+}
+.postBgcolor{/*发帖按钮*/
+    color: #fff;
+    background-color: #337ab7;
+}
+
+

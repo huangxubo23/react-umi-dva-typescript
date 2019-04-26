@@ -1,0 +1,55 @@
+
+
+@media (min-width: 1800px) {
+    .minSm-1, .minSm-2, .minSm-3, .minSm-4, .minSm-5, .minSm-6, .minSm-7, .minSm-8, .minSm-9, .minSm-10, .minSm-11, .minSm-12 {
+        float: left;
+    }
+
+    .minSm-12 {
+        width: 100%;
+    }
+
+    .minSm-11 {
+        width: 91.66666667%;
+    }
+
+    .minSm-10 {
+        width: 83.33333333%;
+    }
+
+    .minSm-9 {
+        width: 75%;
+    }
+
+    .minSm-8 {
+        width: 66.66666667%;
+    }
+
+    .minSm-7 {
+        width: 58.33333333%;
+    }
+
+    .minSm-6 {
+        width: 50%;
+    }
+
+    .minSm-5 {
+        width: 41.66666667%;
+    }
+
+    .minSm-4 {
+        width: 33.33333333%;
+    }
+
+    .minSm-3 {
+        width: 25%;
+    }
+
+    .minSm-2 {
+        width: 16.66666667%;
+    }
+
+    .minSm-1 {
+        width: 8.33333333%;
+    }
+}

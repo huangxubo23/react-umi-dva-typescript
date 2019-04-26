@@ -1,0 +1,72 @@
+
+.contentList tbody > .info {
+    background-color: #eff8fd !important;
+}
+
+.contentList tbody > .synchronization {
+    background-color: #e0dad3 !important;
+}
+
+.contentList tbody > .synchronization:hover {
+    background-color: #e0d5ba !important;
+}
+
+.contentList tbody > .danger {
+    background-color: #ffefec !important;
+}
+
+.contentList tbody > .warning {
+    background-color: #fef1e7 !important;
+}
+
+.contentList tbody > .secondary {
+    background-color: #f4f4f4 !important;
+}
+
+.contentList tbody > .default {
+    background-color: #cce1f3 !important;
+}
+
+.contentList tbody > .success {
+    background-color: #ecfef2 !important;
+}
+
+.contentList tbody > .purple {
+    background-color: #f4e0fb !important;
+}
+
+.contentList tbody > .purple:hover {
+    background-color: #eed8fb !important;
+}
+
+.contentList tbody > .info .wz {
+    color: #008CBA !important;
+}
+
+.contentList tbody > .synchronization .wz {
+    color: #CC9966 !important;
+}
+
+.contentList tbody > .danger .wz {
+    color: #f04124 !important;
+}
+
+.contentList tbody > .warning .wz {
+    color: #f08a24 !important;
+}
+
+.contentList tbody > .secondary .wz {
+    color: #323232 !important;
+}
+
+.contentList tbody > .default .wz {
+    color: #008CBA !important;
+}
+
+.contentList tbody > .success .wz {
+    color: #368a55 !important;
+}
+
+.contentList tbody > .purple .wz {
+    color: #663366 !important;
+}

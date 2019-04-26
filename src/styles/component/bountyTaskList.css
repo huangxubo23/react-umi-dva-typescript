@@ -1,0 +1,49 @@
+div.allColor { /*全局字体颜色*/
+    color: #777777 !important;
+}
+div.fontDiv span{/*字体左浮动*/
+    float: left;
+}
+.fontDiv label{
+    color: #0bb20c;
+}
+.imgDiv{/*头像图片*/
+    /*float: left;*/
+        width: 50%;
+}
+label.number,span.number{
+    font-size: 11px;
+}
+
+.fontDiv p,.fontDiv label{
+    margin: 0 !important;
+}
+
+.margin0{
+    margin: 0 !important;
+}
+img.btImg{
+
+}
+
+p.channelYQ{
+    font-size: 16px;
+}
+
+.layoutCol-1, .layoutCol-10, .layoutCol-11, .layoutCol-12, .layoutCol-13, .layoutCol-14, .layoutCol-15, .layoutCol-16, .layoutCol-17, .layoutCol-18, .layoutCol-19, .layoutCol-2, .layoutCol-20, .layoutCol-21, .layoutCol-22, .layoutCol-23, .layoutCol-24, .layoutCol-3, .layoutCol-4, .layoutCol-5, .layoutCol-6, .layoutCol-7, .layoutCol-8, .layoutCol-9 {
+    float: left;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1560px){
+    .layoutCol-xlg-12 {
+        width: 50%;
+    }
+    .layoutCol-xlg-6 {
+        width: 25%;
+    }
+    .layoutCol-xlg-18 {
+        width: 75%;
+    }
+}
+

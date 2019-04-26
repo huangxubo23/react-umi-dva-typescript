@@ -1,0 +1,5 @@
+table.delBranch td{/*表格居中*/
+    text-align:center;
+    margin:0 auto;
+    vertical-align: middle !important;
+}

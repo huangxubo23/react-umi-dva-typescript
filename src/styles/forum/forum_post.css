@@ -1,0 +1,116 @@
+#talentTableTd{
+    margin-top:0px;
+}
+#jigoucontentReveal,#contentReveal{
+    width:1000px;
+}
+table.contentList{
+    text-align:center;
+    margin:0 auto;
+}
+div.qrCodeName canvas{
+    position: absolute;
+    /* bottom:100px;*/
+    z-index: 9999999;
+    overflow: visible;
+}
+table.searchList{
+    margin-top:-22px;
+}
+div.submitNewContent{
+    text-align:center;
+    margin:0 auto;
+}
+.sy_dj_moda{
+    border-radius: 30px;
+    margin: 8px 0;
+}
+.input-group-button a, .input-group-button button, .input-group-button input, .input-group-button label {
+    font-size: 0px !important;
+}
+div a.outPost{
+    border-radius: 10px;
+    float: right;
+}
+.forumPostTable{ border-collapse:collapse;text-align: left;}
+.forumPostContent{
+
+}
+/*table > tbody > tr > td, .table > tbody > tr > td{
+    border-color: #777;
+}*/
+.forumPostTable tr{
+    /*border: 1px solid #E1E4E6;*/
+
+}
+.forumPostTableTd{
+  /*  background-color: #4e5d6c;
+    top:1px;*/
+    text-align: center;
+
+}
+.forumPostHuiFu{
+    position: relative;
+}
+.forumPostHuiFu div.huifu{
+    float: right;
+    /* position: absolute;
+     top: 21px;
+     right: 14px;*/
+    text-align: right;
+    min-width: 100%;
+}
+.forumPostHuiFu_1{
+    color:#999;
+}
+.forumPostTableImg{
+    width: 100px;
+    height: 100px;
+    background-color: #f1f1f1;
+    -webkit-border-radius: 100px;
+}
+.replyPanel{
+    width: 100%;
+    display:none;
+    padding:5px;
+    text-align:left;
+    border:solid 1px #c3c3c3;
+  /*  background-color: #f7f8fa;*/
+}
+.replyFlip{/*点击回复*/
+    cursor:pointer
+}
+.insideHuifu{
+    float: right;
+    text-align: right;
+}
+.forumPostPublish{
+    float: right;
+    border-radius: 0px !important;
+    margin-top: 11px !important;
+}
+.forumPostPublish2{
+    float: right;
+    border-radius: 0px !important;
+    margin-top: 2px !important;
+}
+.replyDiv{
+    /*width:800px;*/
+    margin: auto;
+
+
+}
+.replyEditBox{
+    background-color: #f8f8f8 !important;
+    border: 1px solid #e2e2e2;
+    min-height: 300px;
+    /*max-width: 800px;*/
+}
+.t_medal_section{
+    width: 100%;
+    height: 90px;
+}
+.navbar {
+    margin-bottom: 0px;
+
+}

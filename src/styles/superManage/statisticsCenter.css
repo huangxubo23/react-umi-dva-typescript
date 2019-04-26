@@ -1,0 +1,39 @@
+div.allColor { /*全局字体颜色*/
+    color: #777777 !important;
+}
+
+.imgFloat { /*头像左对齐*/
+    float: left;
+}
+
+p.talentData { /*图片右边文件*/
+    margin: 0 auto;
+}
+
+span.red { /*好货入库量颜色*/
+    color: red;
+}
+
+span.green { /*其他选项颜色*/
+    color: green;
+}
+span.blue{/*奖金与流量颜色*/
+    color: blue;
+}
+.refreshPosition{/*父刷新定位*/
+    position: relative;
+}
+div.refresh { /*定位刷新*/
+    position: relative;
+    left: -42px;
+    top: -6px;
+}
+div.authorization{/*定位授权*/
+    position: relative;
+    left: -42px;
+    top:75px;
+}
+.widthHeght { /*固定每个达人宽高*/
+    width: 100% !important;
+    /*height: 300px !important;*/
+}

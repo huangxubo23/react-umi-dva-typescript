@@ -1,0 +1,16 @@
+.isHideNone{
+    display:none;
+}
+.panel-body{
+    padding:6px !important;
+}
+.panel-title a{
+    cursor:pointer !important;
+}
+
+.divTable th{
+    text-align: center;
+}
+.tabContent{
+    overflow-y: auto;
+}

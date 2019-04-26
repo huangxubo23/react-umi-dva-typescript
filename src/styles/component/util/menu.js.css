@@ -1,0 +1,125 @@
+/*底部*/
+.ft {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    color: #8cb9f0;
+    float: left;
+    margin-left: 44%;
+}
+
+.ft p {
+    font-size: 16px;
+}
+
+.ft p span {
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.ft a {
+    color: #8cb9f0;
+    text-decoration: none;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+    font-size: 16px;
+}
+
+.ft a:hover {
+    color: white;
+}
+
+/*内容风格*/
+#panel-body {
+    padding: 10px;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
+.inner {
+    /* margin-top: 55px;*/
+    text-align: center;
+    height: inherit;
+    /*background: ;*/
+}
+
+#topMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 99;*/
+    border-bottom: 1px solid #8a98c4;
+}
+
+#customerServer {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+#clientHint {
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    width: 230px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 85% !important;
+    }
+}
+
+div.leftContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 210px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(245, 245, 245);
+    border-right: groove 3px #e2e2e2;
+
+}
+
+div.leftContent::-webkit-scrollbar {
+    display: none;
+}
+
+div.rightContent {
+    position: absolute;
+    left: 210px;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+}
+
+.menuContent {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding: 0;
+    left: 0;
+
+}
+
+#navbarTop .container {
+    width: auto !important;
+}
+
+#navbarTop .navbar-header {
+    width: 210px;
+    text-align: center;
+    float: left;
+}

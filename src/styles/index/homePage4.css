@@ -1,0 +1,154 @@
+div.navbarSm .col-sm-2 { /*导航栏padding设置为0*/
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.col-sm-2 {
+    padding-right: 0 !important;
+}
+
+div.empName { /*左浮动*/
+    float: left !important;
+}
+
+.TypefaceColor { /*字体颜色*/
+    color: #6c6c6c;
+}
+
+div.alertInfo { /*系统通知&&公告*/
+
+    -moz-box-shadow: 1px 1px 4px #888888; /* 老的 Firefox */
+    box-shadow: 1px 1px 4px #888888;
+    background-color: #f4f4f4;
+
+}
+
+.alertHeight {
+    height: 598px;
+}
+
+a.more { /*更多*/
+    float: right;
+    color: #585858;
+}
+
+p.dottedLine { /*虚线与内容*/
+    text-align: left;
+    border-bottom: 1px dashed #000;
+    height: 25px;
+    width: 100%;
+}
+
+div.alertNull { /*通知空白处*/
+    margin: 10px;
+
+}
+
+div.divButton { /*按钮*/
+    background-color: #f0f0f0;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    padding: 13px;
+    margin-bottom: 15px;
+}
+
+.carousel-inner .item { /*广告图片*/
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel-inner .item * {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.carousel-inner .item img { /*广告图片最小宽度*/
+    min-width: 100% !important;
+    max-width: none !important;
+
+}
+
+div.contentButton { /*内容图形按钮*/
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    color: white;
+    padding: 30px;
+    margin: 1%;
+    width: 18%;
+    float: left;
+}
+
+img.sjImg { /*三角图片*/
+    position: relative;
+    left: -90px;
+    top: 42px;
+}
+
+img.sjImg1 { /*三角图片*/
+    position: relative;
+    left: -90px;
+    top: 44px;
+}
+
+.panelBorder {
+    border-color: red !important;
+    color: red;
+}
+
+.rechargeTitle { /*充值点卡*/
+    text-align: center;
+    margin-bottom: 15px
+}
+
+div.segmentingLine { /*分割线*/
+    margin-top: 20px;
+    margin-bottom: 24px;
+    border: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 530px;
+    border-top: 1px solid black;
+}
+
+div.rechargePrompt { /*充值点卡提示*/
+    color: red;
+}
+
+div.rechargeNull { /*充值点卡空白出*/
+    margin: 50px;
+}
+
+div.marigndiv {
+    padding: 10px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left top, #354175, #d595b0, #f5c8c3, #ad94b4, #3f469b) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, #354175, #d595b0, #f5c8c3, #ad94b4, #3f469b) !important; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, #354175, #d595b0, #f5c8c3, #ad94b4, #3f469b) !important; /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, #354175, #d595b0, #f5c8c3, #ad94b4, #3f469b) !important; /* 标准的语法（必须放在最后） */
+}
+
+div.Modelbackground { /*模态背景色*/
+    /* width: 604px;
+     height: 373px;*/
+    background-color: white;
+    padding: 9px;
+    border-radius: 5px;
+    /*   background: repeat-y url('../../images/index/dhk.jpg');
+       border-color: #EFEFEF;*/
+}
+
+span.positionCurrentTime {
+    position: absolute;
+    left: 1584px;
+    top: 54px;
+}
+
+.info-row{
+     background: #e2f0e4;
+ }
+.danger-row{
+    background: #f0e2e2;
+}

@@ -1,0 +1,25 @@
+div.allColor { /*全局字体颜色*/
+    color: #777777 !important;
+}
+
+div p span{/*字体左浮动*/
+    float: left;
+}
+div p{
+    margin-bottom:0px;
+}
+.fontDiv label{
+    color: #0bb20c;
+}
+label.number{
+    font-size: 1px;
+}
+
+
+span.shopKey{
+
+}
+span.shopValue{
+
+}
+

@@ -1,0 +1,82 @@
+.red { /*赤1*/
+    color: red;
+}
+
+.orange { /*橙2*/
+    color: orange;
+}
+
+.yellow { /*黄3*/
+    color: yellow;
+}
+
+.green { /*绿4*/
+    color: green;
+}
+
+.cyan { /*青5*/
+    color: cyan;
+}
+
+.blue { /*蓝6*/
+    color: blue;
+}
+
+.violet { /*紫7*/
+    color: violet;
+}
+
+.white { /*白8*/
+    color: #a0a33b;
+}
+
+.black { /*黑9*/
+    color: black;
+}
+
+.deeppink { /*粉10*/
+    color: deeppink;
+}
+
+.brown { /*棕11*/
+    color: brown;
+}
+
+.editBox {
+    padding: 5px;
+}
+
+.editBoxButsBottomFD {
+    background: rgba(200, 224, 248, 0.8);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 210px;
+    right: 0;
+    z-index: 1;
+}
+
+@media (min-width: 1500px) {
+    .el-col-xlg-4 {
+        width: 20% !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    .el-col-xlg-4 {
+        width: 16.6% !important;
+    }
+}
+
+.contentList .el-card {
+    overflow: visible !important;
+}
+
+.listContent_model {
+    font-size: 14px;
+    color: #828282;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

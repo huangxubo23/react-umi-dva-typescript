@@ -1,0 +1,35 @@
+table.delBranch td { /*表格居中*/
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle !important;
+}
+
+.titleA { /*定位星星*/
+    display: inline-block;
+    width: 25px;
+}
+
+.collectionFalse { /*未收藏定位星星*/
+    /* position: absolute;*/
+    /*top: -21px;
+    right: -6px;*/
+}
+
+.collectionTrue { /*已收藏定位星星*/
+    /*position: absolute !important;*/
+    /*  top: -21px;
+      right: -5px;*/
+}
+
+.collectionColorFalse { /*未收藏星星变色*/
+    color: #767676;
+}
+
+.collectionColorTrue { /*已收藏星星变色*/
+    color: #ff8f1c;
+}
+
+.editBoxPa { /*富文本编辑框边线*/
+    border: 1px solid #e2e2e2;
+    max-width: 800px;
+}

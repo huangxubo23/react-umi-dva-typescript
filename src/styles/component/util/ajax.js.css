@@ -1,0 +1,25 @@
+/*等待图片*/
+#load {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    background: black;
+    z-index: 9999999;
+}
+
+#load #load_im {
+    position: absolute;
+    top: 40%;
+    margin-top: -150px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+#load #load_im img {
+    margin: 0 auto;
+    width: 400px;
+}

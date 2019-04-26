@@ -1,0 +1,282 @@
+
+.RichEditor-root {
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.RichEditor-editor {
+    border-top: 1px solid #ddd;
+    cursor: text;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content  {
+    margin: 0 -15px -15px;
+    padding: 30px;
+}
+
+
+
+.RichEditor-editor .public-DraftEditor-content {
+    /*min-height: 100px;*/
+    /*max-height: 500px;*/
+    /*overflow-y: scroll;*/
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+    display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+    border-left: 5px solid #eee;
+    color: #666;
+    font-family: 'Hoefler Text', 'Georgia', serif;
+    font-style: italic;
+    margin: 16px 0;
+    padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.RichEditor-controls {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    user-select: none;
+
+}
+
+.RichEditor-styleButton {
+    color: #bfbfbf;
+    cursor: pointer;
+    margin-right: 16px;
+    padding: 2px 0;
+    display: inline-block;
+}
+
+.RichEditor-activeButton {
+    color: #5890ff;
+}
+
+.align-right div {
+    text-align: right;
+}
+
+.align-center div {
+    text-align: center;
+}
+
+.align-left div {
+    text-align: left;
+}
+
+.editBoxImgPa {
+    max-width: 450px;
+    position: relative;
+}
+
+.editBoxImgPa img {
+    width: 100%;
+}
+
+.editImg img {
+    /*max-width: 400px;*/
+    /*max-height: 400px;*/
+}
+
+.editItem .media-left img {
+    position: relative;
+    max-width: 200px;
+}
+
+.modalTitle {
+    position: relative;
+}
+
+.media_buttonG {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.editItem .media_buttonG {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+}
+
+.editItem, .editImg {
+    background: #f8f8f8;
+    padding: 5px;
+    margin: 5px;
+    border: #f4f4f4 1px solid;
+    max-width: 400px;
+}
+
+.public-DraftEditor-content {
+    padding: 10px;
+}
+
+.editBoxButs {
+    background: rgba(130, 130, 130, 0.16);
+    padding: 5px;
+
+}
+
+.editButtons{
+
+}
+
+.editBoxButs * {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.editBoxButs span {
+    margin-left: 1px;
+}
+
+.editBoxButsFD {
+    background: rgb(130, 130, 130);
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity:0.9;
+}
+
+.editButtonFD {
+    background: rgb(130, 130, 130);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    right: 0;
+    z-index: 2;
+    opacity:0.9;
+}
+
+.editSerial {
+    z-index: 101;
+}
+.shop-title{
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    background-color: #eee;
+    padding: 0 10px;
+}
+
+.DraftEditor-root *{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+}
+
+.spu-title{
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    background-color: #d8d8d8;
+    padding: 0 10px;
+}
+
+
+.editBoxPa .RichEditor-controls div{
+    display: inline-block;
+}
+
+.commentEditBox .RichEditor-controls div{
+    display: inline-block;
+}
+
+.commentMode .RichEditor-controls div{
+    display: inline-block;
+}
+
+.generalComment .RichEditor-controls div{
+    display: inline-block;
+}
+
+/*编辑器图标*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1033675 */
+    src: url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.eot');
+    src: url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1033675_ono4wn6y7oq.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bianji:before {
+    content: "\eb61";
+}
+
+.icon-guanlianshebei:before {
+    content: "\eb63";
+}
+
+.icon-guanfangbanben:before {
+    content: "\eb64";
+}
+
+.icon-tupiantianjia:before {
+    content: "\ec7d";
+}
+
+.icon-juzhongduiqi:before {
+    content: "\ec80";
+}
+
+.icon-youduiqi:before {
+    content: "\ec82";
+}
+
+.icon-zitijiacu:before {
+    content: "\ec83";
+}
+
+.icon-zitishanchuxian:before {
+    content: "\ec84";
+}
+
+.icon-zitibiaoti:before {
+    content: "\ec85";
+}
+
+.icon-zitixiahuaxian:before {
+    content: "\ec86";
+}
+
+.icon-zitixieti:before {
+    content: "\ec87";
+}
+
+.icon-zitiyanse:before {
+    content: "\ec88";
+}
+
+.icon-zuoduiqi:before {
+    content: "\ec89";
+}
+
+.icon-flag:before {
+    content: "\e624";
+}

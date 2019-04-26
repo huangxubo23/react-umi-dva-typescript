@@ -1,0 +1,39 @@
+.maTop {
+    margin-top: 20px;
+}
+
+.titleNum, .descriptionNum {
+    color: red;
+}
+
+.descriptionNum {
+    position: absolute;
+    right: 20px;
+}
+.AddSpare{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.AddSpare2{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.AddSpare3{
+    cursor: pointer;
+}
+.deleteSpare{
+    margin-top: 10px;
+}
+.deleteSpare_t{
+    cursor: pointer;
+    margin-left: 11px;
+}
+.extraBanners{
+    cursor: pointer;
+    position: absolute;
+    left: 66px;
+}
+
+.orderByVearchButton{
+    width: 16.6%;
+}
