@@ -77,8 +77,8 @@ export default {
     },
     {
       path: '/',
-      component: '../layouts/BasicLayout',
-      // component: '../layouts/AdminMainLayout',
+      // component: '../layouts/BasicLayout',
+      component: '../layouts/AdminMainLayout',
       routes: [
         { path: '/', redirect: '/pc/index/homePage' },
         {
@@ -91,13 +91,13 @@ export default {
               path: '/pc/index/homePage',
               name: 'home',
               icon: 'home',
-              component: './Index',
+              component: './IndexPage',
             },
             {
               path: '/pc/admin/index/homePage',
               name: 'home',
               icon: 'home',
-              component: './IndexPage',
+              component: './HomePage',
             },
           ]
         },

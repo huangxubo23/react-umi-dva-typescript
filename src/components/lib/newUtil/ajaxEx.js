@@ -2,6 +2,7 @@
  * Created by 石英 on 2018/8/14 0014下午 4:14.
  */
 
+ import $ from 'jquery';
 import Login from '../util/LoginModal';
 import Validate from '../util/ValidateModal';
 import {Message} from 'element-react';

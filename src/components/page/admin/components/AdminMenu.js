@@ -120,6 +120,7 @@ class AdminMenu extends ReactChild {
     };
 
     getIsLogin = (successCallback) => {
+      if (this.menuAjax) {
         this.menuAjax.ajax({
             url: "/user/isLogin.io",
             data: {},
@@ -136,6 +137,7 @@ class AdminMenu extends ReactChild {
                 }
             }
         })
+      }
     };
 
     static isLogin = () => {
@@ -163,7 +165,7 @@ class AdminMenu extends ReactChild {
         return (
 
             <div id="navbarTop">
-                <AJAX ref={e => this.menuAjax = e}> </AJAX>
+                <AJAX ref={e => this.menuAjax = e}></AJAX>
                 <div className="inner">
                     <div className="leftContent" style={{width: this.state.openLeft ? "210px" : "0"}}>
                         <NewNavbar height={height + 'px'} loginManage={this.state.loginManage} url={this.state.url}

@@ -105,12 +105,11 @@ class AdoptList extends ReactChild{
             this.contentDetails.jd.open(item);
         }else {
             this.setState({details:true},()=>{
-                setTimeout(()=>{
+                const timer = setInterval(()=>{
                     let jd = this.contentDetails.jd;
                     if(jd){
+                      clearInterval(timer);
                         jd.open(item);
-                    }else {
-                        setTimeout(arguments.callee,100);
                     }
                 },100);
             })

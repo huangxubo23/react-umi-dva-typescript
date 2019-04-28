@@ -144,12 +144,11 @@ class FlowList extends ReactChild {
                 this.movements.jd.parentQueryDate(feedId);
             } else {
                 this.setState({movementsFirst: true}, () => {
-                     setTimeout(() => {
+                     const timer = setTimeout(() => {
                         let jd = this.movements.jd;
                         if (jd) {
+                          clearInterval(timer);
                             jd.parentQueryDate(feedId);
-                        }else {
-                            setTimeout(arguments.callee,100);
                         }
                     }, 100);
                 })
@@ -183,12 +182,11 @@ class FlowList extends ReactChild {
                 this.shortlisted.jd.jump({manageId,name});
             } else {
                 this.setState({shortFirst: true}, () => {
-                    setTimeout(() => {
+                    const timer = setInterval(() => {
                         let jd = this.shortlisted.jd;
                         if (jd) {
+                          clearInterval(timer);
                             jd.jump({manageId,name});
-                        }else {
-                            setTimeout(arguments.callee,100);
                         }
                     }, 3000);
                 })

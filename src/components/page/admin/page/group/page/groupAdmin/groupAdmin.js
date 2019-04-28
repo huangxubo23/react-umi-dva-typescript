@@ -78,14 +78,13 @@ class GroupAdmin extends React.Component {
             this.groupManageModel.jd.setState(item);
         } else {
             this.setState({groupManageModel: true}, () => {
-                setTimeout(() => {
+                const timer = setInterval(() => {
                     let jd = this.groupManageModel.jd;
                     if (jd) {
+                      clearInterval(timer);
                         jd.setState(item, () => {
                             jd.newComponentDidMount();
                         });
-                    } else {
-                        setTimeout(arguments.callee, 100);
                     }
                 }, 100);
             })

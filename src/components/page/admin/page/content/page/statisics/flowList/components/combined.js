@@ -381,14 +381,13 @@ class Combined extends React.Component {
             });
         }else {
             this.setState({modal:true},()=>{
-                setTimeout(()=>{
+                const timer = setInterval(()=>{
                     let jd = this.rewardCountDetailsModal.jd;
                     if(jd){
+                      clearInterval(timer);
                         jd.setState({startDate:startDate,endDate:endDate,manageId:manageId,dialogVisible:true},()=>{
                             jd.goPage(1);
                         });
-                    }else {
-                        setTimeout(arguments.callee,100);
                     }
                 },100);
             });

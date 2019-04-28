@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 
-import adminMenuContainer from '@/components/page/admin/AdminMain';
+import AdminMenuContainer from '@/components/page/admin/AdminMain';
 import {loading, BundleLoading} from '@/bundle';
 
 export default class AdminMainLayout extends PureComponent {
@@ -15,9 +15,11 @@ export default class AdminMainLayout extends PureComponent {
     } else {
         return (
           <div>
-            <BundleLoading load={adminMenuContainer} {...this.props}>
-                {this.props.children}
-            </BundleLoading>
+            {/* <BundleLoading load={adminMenuContainer} {...this.props}> */}
+            <AdminMenuContainer {...this.props}>
+              {this.props.children}
+            </AdminMenuContainer>
+            {/* </BundleLoading> */}
           </div>
         )
     }

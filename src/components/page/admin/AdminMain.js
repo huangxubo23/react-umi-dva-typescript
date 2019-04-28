@@ -49,6 +49,7 @@ import 'element-theme-default';
 
 class AdminMain extends ReactChild {
     render() {
+      console.info('==AdminMain==', this.props);
         let {url,path}=this.props.match;
         let child = <Switch>
             <Route path={url + "/test"} exact component={loading(TestContainer)}/>
@@ -158,13 +159,28 @@ class AdminMain extends ReactChild {
             )
         };
 
-        return (
-            <BrowserRouter getUserConfirmation={getConfirmation}>
-                <Men>
-                    {child}
-                </Men>
-            </BrowserRouter>
-        )
+        // return (
+        //     <BrowserRouter getUserConfirmation={getConfirmation}>
+        //         <Men>
+        //             {child}
+        //         </Men>
+        //     </BrowserRouter>
+        // )
+        if (this.props.location && this.props.location.pathname && this.props.location.pathname.indexOf('/pc/index/homePage') > -1) {
+          return (
+            <div>
+                {this.props.children}
+            </div>
+          )
+        } else {
+          return (
+            <div>
+                <BundleLoading load={adminMenuContainer} {...this.props}>
+                    {this.props.children}
+                </BundleLoading>
+            </div>
+          )
+      }
     }
 
 }
